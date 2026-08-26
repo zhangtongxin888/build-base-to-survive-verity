@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "run_id": "build-base-to-survive-verity-20260826-1823",
+  "game": {
+    "official_name": "Build Base to Survive VERITY",
+    "domain": "build-basetosurviveverity.wiki"
+  },
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-08-26T11:27:32Z",
+  "design_package": {
+    "provider": "Kimi",
+    "model": "kimi-code/k3",
+    "candidate_path": "/Users/zhangtongxin/orca/workspaces/roblox_monetization_v3/roblox-sites/build-base-to-survive-verity-candidate/.launch/design/kimi-design-v1.json",
+    "candidate_sha256": "504795e275df29057d048ef3ff0725de1ff13529f41fa2b2e0c6b6b1ebaf714a",
+    "archived_manifest_sha256": "c1ba1ffa2f60439fb47eb478b3f85ad94a71232c34481ea1a01b48246d3fb481",
+    "archive_note": "正式仓库中的语义归档经过 JSON 格式规范化；审批以候选目录原始文件的 candidate_sha256 为准。"
+  },
+  "research_approval": {
+    "path": ".launch/research/research-approved.json",
+    "sha256": "03624c5cc1886b23b8809aa07099b7c8f8ff0dacaf48baaaf12ca55dfc3f0840",
+    "approved_fact_count": 28,
+    "rejected_fact_count": 12
+  },
+  "viewport_results": {
+    "375": {
+      "viewport": "375x812",
+      "result": "approved",
+      "checks": [
+        "首屏标题与说明清晰",
+        "最大主按钮指向 /beginner-guide/",
+        "导航可访问且站内闭环通过",
+        "页面 documentWidth 等于 375，无页面级横向溢出",
+        "宽表格只在带键盘焦点的 table-scroll 容器内滚动"
+      ],
+      "evidence": [
+        {
+          "path": ".launch/acceptance/screenshots/home-375.png",
+          "sha256": "8ec7ffbe6c6d7978084ac6e9409d106719df16c24a662b75bef96a4314cf3894"
+        },
+        {
+          "path": ".launch/acceptance/screenshots/beginner-guide-375.png",
+          "sha256": "066e787880992fc36b13afef49905eef4b4a0b0b91550b53b464e5a439de984a"
+        }
+      ]
+    },
+    "768": {
+      "viewport": "768x1024",
+      "result": "approved",
+      "checks": [
+        "首屏与双列布局清晰",
+        "主按钮指向 /beginner-guide/",
+        "documentWidth 等于 768",
+        "滚动容器外无越界元素"
+      ],
+      "evidence": {
+        "path": ".launch/acceptance/screenshots/home-768.png",
+        "sha256": "8f981e72327a55827e4d3c5066649c55277ac4c926c9b5bf9f7b6b637440d8d9"
+      }
+    },
+    "1440": {
+      "viewport": "1440x900",
+      "result": "approved",
+      "checks": [
+        "首屏层级、内容宽度与四列布局清晰",
+        "主按钮指向 /beginner-guide/",
+        "documentWidth 等于 1440",
+        "滚动容器外无越界元素"
+      ],
+      "evidence": {
+        "path": ".launch/acceptance/screenshots/home-1440.png",
+        "sha256": "4a70c52a9785727d60e6dc252f14532b274955ade93eab6a76dc4650a12ec436"
+      }
+    }
+  },
+  "navigation_check": {
+    "result": "approved",
+    "path_tested": [
+      "/",
+      "/beginner-guide/",
+      "/mistakes/",
+      "/faq/",
+      "/sources/",
+      "/"
+    ],
+    "browser_errors": [],
+    "console_errors": []
+  },
+  "accessibility": {
+    "result": "approved",
+    "checks": [
+      "zh-CN 文档语言",
+      "跳到正文链接",
+      "语义标题与导航标签",
+      "42px 以上导航触控高度与 50px 以上主按钮",
+      "键盘焦点样式",
+      "prefers-reduced-motion 降动效",
+      "表格表头与可聚焦滚动区",
+      "深色主题前景与背景对比清晰"
+    ]
+  },
+  "fact_citations": {
+    "result": "approved",
+    "approved_fact_ids_used": [
+      "fact-001",
+      "fact-003",
+      "fact-004",
+      "fact-005",
+      "fact-006",
+      "fact-007",
+      "fact-008",
+      "fact-009",
+      "fact-010",
+      "fact-011",
+      "fact-012",
+      "fact-013",
+      "fact-014",
+      "fact-015",
+      "fact-016",
+      "fact-017",
+      "fact-018",
+      "fact-021",
+      "fact-022",
+      "fact-023",
+      "fact-025",
+      "fact-028",
+      "fact-030",
+      "fact-032",
+      "fact-035",
+      "fact-037",
+      "fact-038",
+      "fact-040"
+    ],
+    "unapproved_fact_ids_used": [],
+    "source_index": "/sources/"
+  },
+  "asset_license": {
+    "result": "approved",
+    "candidate_assets_accepted": [],
+    "third_party_images": [],
+    "external_fonts": [],
+    "site_assets": [
+      {
+        "path": "/styles/main.css",
+        "origin": "Codex formal rewrite",
+        "license_status": "project-owned"
+      },
+      {
+        "path": "/og-image.svg",
+        "origin": "Codex-authored vector using only text and geometric shapes",
+        "license_status": "project-owned"
+      }
+    ]
+  },
+  "issue_handling": [
+    {
+      "issue": "候选文案把 Rebirth 写成声望式机制，并把复合、被拒绝或没有来源的通行证和装饰物断言写入页面。",
+      "resolution": "正式实现执行一次 Codex 重写，只保留研究门禁批准项，并把未知的 Rebirth 花费、重置与奖励明确标为未知。",
+      "status": "resolved"
+    },
+    {
+      "issue": "候选使用 .html 路径且没有公开事实索引页面。",
+      "resolution": "正式实现改为规范目录路由，新增 /sources/，并保留旧 .html 路径的永久跳转。",
+      "status": "resolved"
+    },
+    {
+      "issue": "候选没有社交分享图。",
+      "resolution": "新增原创 /og-image.svg，并在所有收录页面写入绝对 OG 与 Twitter 图片地址。",
+      "status": "resolved"
+    }
+  ],
+  "fallback_reason": "候选格式门禁通过，但事实门禁不通过；因此保留其深色加琥珀色视觉方向与响应式结构，执行一次 Codex 正式重写，没有接收候选素材。",
+  "final": "approved"
+}
