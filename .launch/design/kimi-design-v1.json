@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "run_id": "build-base-to-survive-verity-20260826-1823",
+  "game": {
+    "official_name": "Build Base to Survive VERITY",
+    "domain": "build-basetosurviveverity.wiki"
+  },
+  "provider": {
+    "name": "Kimi",
+    "model": "kimi-code/k3",
+    "generated_at": "2026-08-26T10:50:49Z"
+  },
+  "research_approval_sha256": "03624c5cc1886b23b8809aa07099b7c8f8ff0dacaf48baaaf12ca55dfc3f0840",
+  "status": "ready_for_review",
+  "design_system": {
+    "theme": "dark-night — 深夜底色呼应夜袭主题，琥珀色 accent 呼应警报/施工灯氛围",
+    "palette": {
+      "bg": "#0d0f14",
+      "surface": "#161a23",
+      "text": "#e8ecf3",
+      "accent": "#f2b822"
+    },
+    "font_strategy": "system stack (Segoe UI / system-ui / sans-serif)，等宽字体仅用于代码串；零外部字体依赖",
+    "spacing_scale": ["4px", "8px", "12px", "16px", "22px", "28px", "40px", "52px", "64px"],
+    "responsive_rules": [
+      "375px（基准）：单列卡片、纵向 CTA 按钮组、导航可换行、字体 16px、容器 padding 16px",
+      "768px：grid-2/grid-3 变双列、CTA 横向排列、hero 上下间距加大、容器 padding 28px、字体 17px",
+      "1440px：grid-3 变三列、grid-4 变四列、容器 max-width 1200px padding 40px、hero 放大、section 间距 64px"
+    ]
+  },
+  "homepage": {
+    "hero": {
+      "headline": "Build Base to Survive VERITY 攻略 Wiki",
+      "subheadline": "白天自由建基地、摆炮塔，夜晚抵御 VERITY 的袭击。本站整理了新手前 10 分钟流程、核心玩法循环、代码兑换方法与常见避坑清单。",
+      "primary_cta": {
+        "label": "查看新手教程",
+        "target": "/beginner-guide.html"
+      },
+      "secondary_cta": {
+        "label": "快速入门摘要",
+        "target": "#quick-start"
+      }
+    },
+    "sections": [
+      {"id": "quick-start", "title": "快速入门摘要", "type": "card-grid-3"},
+      {"id": "core-loop", "title": "核心玩法循环", "type": "card-grid-4"},
+      {"id": "codes", "title": "代码速查（快照 2026-08-25）", "type": "code-chips + note"},
+      {"id": "game-facts", "title": "游戏基本信息", "type": "table"},
+      {"id": "more", "title": "继续阅读", "type": "internal-link-cards"}
+    ]
+  },
+  "page_map": [
+    {"path": "/", "purpose": "首页"},
+    {"path": "/beginner-guide.html", "purpose": "新手教程"},
+    {"path": "/mistakes.html", "purpose": "常见错误"},
+    {"path": "/faq.html", "purpose": "FAQ"}
+  ],
+  "components": [
+    "site-header（sticky 导航，aria-current 标注当前页）",
+    "hero（eyebrow + h1 + subheadline + 双 CTA，主 CTA 仅指向站内 tutorial.html）",
+    "card / card-grid（2/3/4 列响应式）",
+    "step-list（编号步骤，用于前 10 分钟流程）",
+    "code-chip（等宽代码串 + 奖励说明）",
+    "note / note.warn（带日期的快照免责与风险提示）",
+    "faq-item（details/summary 手风琴，无 JS 依赖）",
+    "table-scroll（横向滚动表格，Robux 价格快照）",
+    "site-footer（站内导航 + 非官方免责声明 + 快照时效声明）"
+  ],
+  "assets": [],
+  "approved_fact_ids_used": [
+    "fact-001", "fact-003", "fact-004", "fact-005", "fact-006", "fact-007", "fact-008", "fact-009",
+    "fact-010", "fact-011", "fact-012", "fact-013", "fact-014", "fact-015", "fact-016", "fact-017",
+    "fact-018", "fact-021", "fact-022", "fact-023", "fact-025", "fact-028", "fact-030", "fact-032",
+    "fact-035", "fact-037", "fact-038", "fact-040"
+  ],
+  "files_changed": [
+    "index.html",
+    "beginner-guide.html",
+    "mistakes.html",
+    "faq.html",
+    "styles/main.css",
+    ".launch/design/kimi-design-v1.json"
+  ],
+  "preview_command": "cd /Users/zhangtongxin/orca/workspaces/roblox_monetization_v3/roblox-sites/build-base-to-survive-verity-candidate && python3 -m http.server 8000"
+}

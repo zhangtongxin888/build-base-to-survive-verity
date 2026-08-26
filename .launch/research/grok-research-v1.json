@@ -1,0 +1,572 @@
+{
+  "schema_version": 1,
+  "run_id": "build-base-to-survive-verity-20260826-1823",
+  "game": {
+    "official_name": "Build Base to Survive VERITY",
+    "domain": "build-basetosurviveverity.wiki",
+    "roblox_url": "https://www.roblox.com/games/116070952245255/Build-Base-to-Survive-VERITY",
+    "place_id": "116070952245255",
+    "universe_id": "10604772590",
+    "developer": "Danvd's Larpductions"
+  },
+  "provider": {
+    "name": "Grok",
+    "model": "grok-4.6",
+    "generated_at": "2026-08-26T10:35:24Z"
+  },
+  "status": "complete",
+  "facts": [
+    {
+      "id": "fact-001",
+      "category": "identity",
+      "subject": "official_game",
+      "claim": "The live Roblox listing title is Build Base to Survive VERITY (no extra “a” in the official name).",
+      "source_url": "https://www.roblox.com/games/116070952245255/Build-Base-to-Survive-VERITY",
+      "source_type": "official",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-002",
+      "category": "identity",
+      "subject": "developer",
+      "claim": "The experience is published by the Roblox group Danvd's Larpductions, which the listing links as the creator.",
+      "source_url": "https://www.roblox.com/communities/1040399903/Danvds-Larpductions",
+      "source_type": "official",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-003",
+      "category": "identity",
+      "subject": "place_id",
+      "claim": "The root place ID is 116070952245255, matching the games URL path.",
+      "source_url": "https://games.roblox.com/v1/games?universeIds=10604772590",
+      "source_type": "roblox",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-004",
+      "category": "identity",
+      "subject": "universe_id",
+      "claim": "The universe ID for this place is 10604772590.",
+      "source_url": "https://apis.roblox.com/universes/v1/places/116070952245255/universe",
+      "source_type": "roblox",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-005",
+      "category": "identity",
+      "subject": "developer",
+      "claim": "Roblox group 1040399903 is named Danvd's Larpductions, tagged as a Group creator, with owner username jirachi_eye (display name Jirachi) and a public group description “Larping and Productions.”",
+      "source_url": "https://groups.roblox.com/v1/groups/1040399903",
+      "source_type": "roblox",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-006",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "The official description frames the loop as freeform base building, then defending that base against VERITY with turrets and guns.",
+      "source_url": "https://www.roblox.com/games/116070952245255/Build-Base-to-Survive-VERITY",
+      "source_type": "official",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-007",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "Players can invite friends to build together on the same base rather than only playing solo.",
+      "source_url": "https://www.roblox.com/games/116070952245255/Build-Base-to-Survive-VERITY",
+      "source_type": "official",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-008",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "Placed buildings persist through an autosave system advertised on the listing.",
+      "source_url": "https://www.roblox.com/games/116070952245255/Build-Base-to-Survive-VERITY",
+      "source_type": "official",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-009",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "The listing states that VERITY appears at night and asks whether the player will survive him, so night defense is the threat window.",
+      "source_url": "https://www.roblox.com/games/116070952245255/Build-Base-to-Survive-VERITY",
+      "source_type": "official",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-010",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "Servers are capped at 6 players.",
+      "source_url": "https://games.roblox.com/v1/games?universeIds=10604772590",
+      "source_type": "roblox",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-011",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "The experience uses R15 morph avatars (universeAvatarType MorphToR15).",
+      "source_url": "https://games.roblox.com/v1/games?universeIds=10604772590",
+      "source_type": "roblox",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-012",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "After spawning, a Store control sits on the left HUD; codes are redeemed from a Codes section inside that store window.",
+      "source_url": "https://www.sportskeeda.com/roblox-news/build-a-base-to-survive-verity-codes",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-013",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "Cash is the main spendable currency and is used to buy items including Gun crates.",
+      "source_url": "https://www.sportskeeda.com/roblox-news/build-a-base-to-survive-verity-codes",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-014",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "Blocks are placed around a plot to form a defensive border against incoming attacks.",
+      "source_url": "https://www.sportskeeda.com/roblox-news/build-a-base-to-survive-verity-codes",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-015",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "Turrets are placeable defensive buildings meant to help kill enemies instead of relying only on handheld guns.",
+      "source_url": "https://www.sportskeeda.com/roblox-news/build-a-base-to-survive-verity-codes",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-016",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "In-game HUD buttons include cash display, Store (with a free-gift badge), Save, Blocks, Rebirth, and Guns, plus a Shop overlay with a Codes field and Enter button.",
+      "source_url": "https://pocket-codes.com/build-base-to-survive-verity-codes.html",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-017",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "The Shop overlay includes a paid Multiply Money upgrade advertised as moving a cash multiplier from x1 to x2.",
+      "source_url": "https://pocket-codes.com/build-base-to-survive-verity-codes.html",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-018",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "An in-game limited Falsity Pack offer has been shown as 200 Bedrock plus 15 Turrets, confirming Bedrock as a block type and turrets as a purchasable bundle.",
+      "source_url": "https://pocket-codes.com/build-base-to-survive-verity-codes.html",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-019",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "Permanent gun unlocks sold as game passes include Rifle Blaster, Shotgun, Minigun, OP Gun, plus themed Spooky Gun and Kawaii Gun inside cosmetic packs.",
+      "source_url": "https://www.rolimons.com/game/116070952245255",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-020",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "Spooky Pack permanently unlocks the Spooky Gun and grants a Spooky block bundle once; Kawaii Pack does the same for the Kawaii Gun and Kawaii block bundle.",
+      "source_url": "https://www.rolimons.com/gamepass/1947705627",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-021",
+      "category": "progression",
+      "subject": "progression",
+      "claim": "As of 25 Aug 2026 Sportskeeda listed active codes THXFOR1M (Turret), CURIOSITYUPD (50 Emerald Blocks), 10000PLAYERS (100 Gold Blocks), and CODES (500 cash).",
+      "source_url": "https://www.sportskeeda.com/roblox-news/build-a-base-to-survive-verity-codes",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-022",
+      "category": "progression",
+      "subject": "progression",
+      "claim": "Code rewards feed the same progression resources used to fortify: cash, rarer blocks (gold/emerald), and turrets.",
+      "source_url": "https://www.sportskeeda.com/roblox-news/build-a-base-to-survive-verity-codes",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-023",
+      "category": "progression",
+      "subject": "progression",
+      "claim": "Rolimon’s listed live Robux prices: Rifle Game Pass 49, Shotgun 199, Spooky Pack 199, Kawaii Pack 199, OP Gun 249, Minigun 499, Rainbow Carpet 699, [VERY OP] Admin 1499.",
+      "source_url": "https://www.rolimons.com/game/116070952245255",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-024",
+      "category": "progression",
+      "subject": "progression",
+      "claim": "God Pack and Falsity Pack game passes are offsale; their API copy says those packs moved to in-game developer products (Falsity Pack as a limited product).",
+      "source_url": "https://www.rolimons.com/game/116070952245255",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-025",
+      "category": "progression",
+      "subject": "progression",
+      "claim": "A Rebirth button sits in the left HUD alongside Blocks and Guns, so rebirth is a first-class progression control even though its exact reset/reward rules are not documented in found writeups.",
+      "source_url": "https://pocket-codes.com/build-base-to-survive-verity-codes.html",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-026",
+      "category": "progression",
+      "subject": "progression",
+      "claim": "Rainbow Carpet is sold as a 699 Robux game pass and appears as a labeled placeable in the world near player plots.",
+      "source_url": "https://www.rolimons.com/game/116070952245255",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-027",
+      "category": "update",
+      "subject": "update",
+      "claim": "The Roblox listing advertised a CURIOSITY event with an x2 boost prompt around 26 Aug 2026, matching the CURIOSITYUPD code name.",
+      "source_url": "https://www.roblox.com/games/116070952245255/Build-Base-to-Survive-VERITY",
+      "source_type": "official",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-028",
+      "category": "update",
+      "subject": "update",
+      "claim": "The universe was created 2026-07-31T16:39:25Z and was still being updated on 2026-08-26.",
+      "source_url": "https://games.roblox.com/v1/games?universeIds=10604772590",
+      "source_type": "roblox",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-029",
+      "category": "identity",
+      "subject": "official_game",
+      "claim": "Around check time the universe reported about 6.99 million visits, ~13.7k playing, ~13.9k favorites, and 4673 up / 1213 down votes.",
+      "source_url": "https://games.roblox.com/v1/games?universeIds=10604772590",
+      "source_type": "roblox",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-030",
+      "category": "identity",
+      "subject": "official_game",
+      "claim": "Rolimon’s recorded an all-time peak of 21,956 concurrent players and an average playtime of about 20 minutes, with no badges and no sub-places.",
+      "source_url": "https://www.rolimons.com/game/116070952245255",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-031",
+      "category": "identity",
+      "subject": "official_game",
+      "claim": "Search-indexed copy of the official listing reports maturity as Mild Fear (occasional/mild) and Violence (repeated/mild), with Voice Chat and Camera not supported.",
+      "source_url": "https://www.roblox.com/games/116070952245255/Build-Base-to-Survive-VERITY",
+      "source_type": "official",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-032",
+      "category": "mistake",
+      "subject": "mistake",
+      "claim": "Codes are treated as case-sensitive; a wrong string returns “That code does not exist,” and a repeat redeem returns “You already redeemed that code.”",
+      "source_url": "https://www.sportskeeda.com/roblox-news/build-a-base-to-survive-verity-codes",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-033",
+      "category": "faq",
+      "subject": "faq",
+      "claim": "A Discord server named “Build Base to Survive Verity” exists, with a codes channel; Sportskeeda says developers post new codes and expiry there, and two public invites land in that same guild.",
+      "source_url": "https://www.sportskeeda.com/roblox-news/build-a-base-to-survive-verity-codes",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-034",
+      "category": "faq",
+      "subject": "faq",
+      "claim": "This title is a build-and-defend sandbox by Danvd's Larpductions, not Specter Development’s story horror Verity (different place/universe and developer).",
+      "source_url": "https://www.roblox.com/games/116070952245255/Build-Base-to-Survive-VERITY",
+      "source_type": "official",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-035",
+      "category": "identity",
+      "subject": "developer",
+      "claim": "The same group also publishes a template sibling, Build Base to Survive MOBS (universe 10697510253 / place 107999130556469), which reuses the build / turrets / guns / night-autosave description pattern.",
+      "source_url": "https://games.roblox.com/v2/groups/1040399903/gamesV2?accessFilter=2&limit=50&sortOrder=Asc",
+      "source_type": "roblox",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-036",
+      "category": "gameplay",
+      "subject": "gameplay",
+      "claim": "Official gallery art depicts VERITY as a tall yellow smiling humanoid attacking brick or stone bases while players use handheld guns and turret-style defenses.",
+      "source_url": "https://www.roblox.com/games/116070952245255/Build-Base-to-Survive-VERITY",
+      "source_type": "official",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-037",
+      "category": "faq",
+      "subject": "faq",
+      "claim": "Pocket-Codes, linking the official place URL, describes the game as a defense sandbox: custom bases from blocks, turrets, and guns, solo or with friends, with autosave, to last nocturnal VERITY attacks.",
+      "source_url": "https://pocket-codes.com/build-base-to-survive-verity-codes.html",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "high"
+    },
+    {
+      "id": "fact-038",
+      "category": "progression",
+      "subject": "progression",
+      "claim": "Pocket-Codes says codes typically grant cash, extra defense blocks, and weapons/turrets, and that the left Store button plus Enter is the redeem path on PC or mobile.",
+      "source_url": "https://pocket-codes.com/build-base-to-survive-verity-codes.html",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-039",
+      "category": "update",
+      "subject": "update",
+      "claim": "Code names THXFOR1M and 10000PLAYERS imply visit/player milestones; CURIOSITYUPD tracks the CURIOSITY event branding on the listing.",
+      "source_url": "https://www.sportskeeda.com/roblox-news/build-a-base-to-survive-verity-codes",
+      "source_type": "secondary",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    },
+    {
+      "id": "fact-040",
+      "category": "identity",
+      "subject": "official_game",
+      "claim": "Copying is not allowed on the universe; VIP servers were not enabled in the games API payload at check time.",
+      "source_url": "https://games.roblox.com/v1/games?universeIds=10604772590",
+      "source_type": "roblox",
+      "checked_at": "2026-08-26T10:35:24Z",
+      "confidence": "medium"
+    }
+  ],
+  "new_player_guide": {
+    "first_10_minutes": [
+      "Join Build Base to Survive VERITY from the official Roblox listing (place 116070952245255). Servers hold at most 6 people, so a friend group can share one server.",
+      "After spawn, look at the left HUD: cash, Store, Save, Blocks, Rebirth, and Guns. Do not ignore Store—it is also the code desk.",
+      "Open Store, scroll to Codes, paste a working code into the box (Sportskeeda’s prompt text is “Enter a code first”), then Redeem/Enter. Treat codes as case-sensitive and skip any already claimed.",
+      "Spend starter cash on Gun crates and extra blocks rather than cosmetics. Sportskeeda lists cash as the currency for crates and items; blocks form the defensive border.",
+      "Place a closed block perimeter on your plot before night. Official copy and code guides both treat walls plus turrets as the survival kit, not decoration.",
+      "Drop at least one turret covering the approach. If you redeemed THXFOR1M while it is live, that code is listed as a turret grant.",
+      "Open Guns and equip a firearm so you can shoot while turrets fire. Official description pairs turrets and guns; game passes only permanently unlock extra guns.",
+      "If friends are in the same server, invite them onto your base and split wall vs turret vs shooting roles. Autosave is advertised, but still tap Save if the HUD button is visible.",
+      "Watch for nightfall: the listing says VERITY comes out at night. Use remaining daylight to thicken walls and add turrets instead of expanding a pretty house.",
+      "A typical tracked session is about 20 minutes, so the first 10 minutes are mostly the first fortify-then-defend cycle, not a long tutorial campaign."
+    ],
+    "core_loop": [
+      "Day/build phase: earn or redeem cash, buy blocks and Gun crates, place walls and turrets on the plot.",
+      "Arm phase: equip guns and keep turrets covering the perimeter.",
+      "Night/VERITY phase: survive the nocturnal attack using the base, turrets, and guns.",
+      "Persist: buildings autosave; return, spend more cash, and thicken the fort.",
+      "Optional spend: money multipliers, themed block/gun packs, and limited packs (e.g. Falsity Pack shown as Bedrock + turrets) speed the same loop.",
+      "Longer-term HUD control: Rebirth sits next to Blocks/Guns, implying a prestige-style reset, but the exact trade is not documented in found sources."
+    ],
+    "progression_path": [
+      "Free start: redeem live codes for cash, gold/emerald blocks, and a turret if those codes still work.",
+      "Cash sink 1: Gun crates and placeable blocks from the store.",
+      "Cash sink 2: more turrets and denser walls so night attacks do not reach you.",
+      "Paid guns (optional): Rifle Blaster is the cheap permanent unlock; Shotgun/Minigun/OP Gun cost more Robux; Spooky/Kawaii packs add a themed gun plus a one-time block bundle.",
+      "Paid plot cosmetics: Rainbow Carpet is a 699 Robux placeable, not required for defense.",
+      "Limited/retired packs: God Pack and Falsity Pack game passes are offsale and redirected to in-game developer products; do not tell players to buy the retired passes.",
+      "Event layer: CURIOSITY branding on the listing plus CURIOSITYUPD code; treat x2 boost contents as unverified beyond the listing teaser.",
+      "Prestige: Rebirth is a HUD button; do not invent multiplier values until a primary source explains it."
+    ],
+    "common_mistakes": [
+      "Using the unofficial wording “Build a Base to Survive VERITY” as the canonical title (Sportskeeda adds “a”; the Roblox title does not).",
+      "Skipping Store → Codes in the first minute and then struggling for cash/blocks before the first night.",
+      "Typing codes by hand (case, spaces). The game rejects bad strings with “That code does not exist.”",
+      "Redeeming the same code twice and thinking the system is broken (“You already redeemed that code.”).",
+      "Building a decorative house without turrets or a closed block border.",
+      "Buying Rainbow Carpet or Admin before a turret/gun loadout.",
+      "Confusing this game with Verity [HORROR] (Specter Development), Verity™ story games, or Minecraft Verity addons—those use box/companion/3-day plots, not this turret sandbox.",
+      "Assuming there are badges to chase; trackers list none for this universe.",
+      "Trusting exploit “no damage / kill aura” pages; they are not a legitimate progression path and should not be recommended on the wiki."
+    ],
+    "faq": [
+      {
+        "question": "What is the official game name and URL?",
+        "answer": "Build Base to Survive VERITY at https://www.roblox.com/games/116070952245255/Build-Base-to-Survive-VERITY (place 116070952245255, universe 10604772590)."
+      },
+      {
+        "question": "Who made it?",
+        "answer": "Roblox group Danvd's Larpductions (group 1040399903). Group owner username is jirachi_eye."
+      },
+      {
+        "question": "How do I redeem codes?",
+        "answer": "Spawn, tap Store on the left, scroll to Codes, paste the code exactly, then Redeem/Enter."
+      },
+      {
+        "question": "What codes were listed in late August 2026?",
+        "answer": "Sportskeeda (25 Aug 2026) listed THXFOR1M, CURIOSITYUPD, 10000PLAYERS, and CODES with turret / emerald blocks / gold blocks / 500 cash rewards. Pocket-Codes (22 Aug) listed the same strings but different expiry notes. Always re-test in-game."
+      },
+      {
+        "question": "Does my base save if I leave?",
+        "answer": "Yes—the official description and code guides both say buildings autosave. A Save button also appears on the HUD."
+      },
+      {
+        "question": "When does VERITY attack?",
+        "answer": "The listing only says VERITY comes out at night. No reliable source published the exact day/night timer."
+      },
+      {
+        "question": "Is this the Roblox horror game where you talk to a yellow orb for three days?",
+        "answer": "No. That is a different experience (commonly Verity [HORROR] by Specter Development). This one is a 6-player build-and-defend sandbox by Danvd's Larpductions."
+      },
+      {
+        "question": "How many players per server?",
+        "answer": "Maximum 6."
+      },
+      {
+        "question": "Are there badges?",
+        "answer": "Roblox badge API and Rolimon’s both show none."
+      },
+      {
+        "question": "Where do new codes appear?",
+        "answer": "Sportskeeda points to a codes channel on the game’s Discord (invites land in guild “Build Base to Survive Verity”). Also recheck Store in-game after updates."
+      }
+    ]
+  },
+  "keywords": {
+    "primary": [
+      "Build Base to Survive VERITY",
+      "Build Base to Survive VERITY codes",
+      "Build Base to Survive VERITY wiki",
+      "Build Base to Survive VERITY Roblox",
+      "survive VERITY Roblox"
+    ],
+    "secondary": [
+      "Danvd's Larpductions",
+      "THXFOR1M",
+      "CURIOSITYUPD",
+      "VERITY turrets",
+      "VERITY gun crates",
+      "Falsity Pack",
+      "Rainbow Carpet",
+      "Build Base to Survive VERITY rebirth",
+      "jirachi_eye"
+    ],
+    "search_intent": [
+      "build base to survive verity codes",
+      "how to play build base to survive verity",
+      "does build base to survive verity save",
+      "build base to survive verity vs verity horror",
+      "how to survive night verity roblox",
+      "build base to survive verity turrets guns",
+      "build base to survive verity gamepasses"
+    ]
+  },
+  "uncertainties": [
+    "Exact day/night cycle length and whether VERITY can break specific block tiers (wood/gold/emerald/bedrock) is not documented outside marketing art.",
+    "Rebirth HUD exists, but no reliable source explains cost, what resets, or what bonus it grants.",
+    "Gun crate loot table, turret damage, and block HP values are unpublished.",
+    "Sportskeeda (25 Aug 2026) still listed 10000PLAYERS as active; Pocket-Codes (22 Aug) marked it expiring 22/08. Live status must be retested in-game.",
+    "Pocket-Codes listed generic “cash, blocks, weapons” for every code, while Sportskeeda gave specific rewards. Prefer in-game redeem results over either table.",
+    "CURIOSITY “x2 boost” is advertised on the listing, but it is not stated whether it multiplies cash, drops, or something else.",
+    "God Pack developer-product contents are unknown after the game pass was retired.",
+    "Whether the Discord guild “Build Base to Survive Verity” is staff-run by Danvd's Larpductions is not proven from Roblox social-link APIs (those endpoints required auth). Sportskeeda and Pocket-Codes both point players there.",
+    "Maturity labels and Voice Chat/Camera flags came from the indexed official listing snippet; the stripped HTML fetch omitted the stats table.",
+    "No dedicated fan wiki, Reddit hub, or YouTube walkthrough was found that is clearly this place ID (most “Survive VERITY” videos are other Verity games or Minecraft).",
+    "Spike/bear-trap tiles in official thumbnails may be real placeables or only promo art; no text source names those items.",
+    "Falsity Pack screenshot stock counter (1090/2500) and 179 Robux price may be time-limited and already sold out."
+  ],
+  "forbidden_claims": [
+    "Do not treat Specter Development’s Verity [HORROR] (place 102512776849655) walkthroughs, badges, Ethan, or 3-day house plot as this game.",
+    "Do not treat Verity™ / other companion-orb Roblox games, or Minecraft Verity / Falsity addons, as this sandbox.",
+    "Do not use “Build a Base to Survive VERITY” as the official title; that extra “a” is a Sportskeeda wording error.",
+    "Do not invent badges, observation-tower quests, wood/rock gathering, or good/bad endings.",
+    "Do not publish exploit/script instructions (no-damage, kill aura, executors).",
+    "Do not claim codes never expire or copy Pocket-Codes expiry dates without an in-game recheck.",
+    "Do not list retired God Pack / Falsity Pack game passes as currently for sale on the Roblox store page.",
+    "Do not claim this is an official ThatMob Verity product.",
+    "Do not send the site’s primary CTA to roblox.com; keep tutorial CTAs on-site per launch brief.",
+    "Do not quote long passages from Sportskeeda or Pocket-Codes; paraphrase only."
+  ],
+  "suggested_topics": [
+    "First-night fort: blocks then turrets then a gun, before decorating",
+    "Codes desk: Store → Codes, with a live-check disclaimer",
+    "HUD explainer: Store, Save, Blocks, Guns, Rebirth",
+    "Cash vs Robux: Gun crates versus Rifle/Shotgun/Minigun/OP Gun passes",
+    "Co-op on 6-player servers and shared-base building",
+    "Autosave vs the Save button",
+    "Disambiguation page vs Verity horror / Minecraft Verity",
+    "CURIOSITY event and CURIOSITYUPD",
+    "Themed packs (Spooky, Kawaii) vs defense packs (turrets, Bedrock)",
+    "Related title by the same group: Build Base to Survive MOBS (do not mix mechanics)"
+  ]
+}

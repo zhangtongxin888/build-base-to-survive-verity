@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Build Base to Survive VERITY Wiki</title>
+  <desc id="desc">深色背景上的黄色基地轮廓和中文新手攻略标题。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1016"/>
+      <stop offset="1" stop-color="#1d2633"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="0" r="80%">
+      <stop offset="0" stop-color="#ffc83d" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#ffc83d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g fill="none" stroke="#344052" stroke-width="2" opacity=".7">
+    <path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200"/>
+    <path d="M100 0v630M300 0v630M500 0v630M700 0v630M900 0v630M1100 0v630"/>
+  </g>
+  <g transform="translate(92 116)">
+    <path d="M0 64 104 0l104 64v170H0Z" fill="#151b25" stroke="#ffc83d" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M61 234v-91h86v91M31 89h146" fill="none" stroke="#ffc83d" stroke-width="12"/>
+    <circle cx="104" cy="105" r="14" fill="#ffc83d"/>
+  </g>
+  <text x="360" y="188" fill="#ffc83d" font-family="system-ui, sans-serif" font-size="34" font-weight="800" letter-spacing="4">ROBLOX 建造与防守攻略</text>
+  <text x="360" y="284" fill="#f3f5f8" font-family="system-ui, sans-serif" font-size="68" font-weight="900">Build Base to Survive</text>
+  <text x="360" y="366" fill="#ffc83d" font-family="system-ui, sans-serif" font-size="82" font-weight="900">VERITY</text>
+  <text x="360" y="438" fill="#bac4d1" font-family="system-ui, sans-serif" font-size="33">新手教程 · 核心循环 · 常见错误 · FAQ</text>
+  <rect x="360" y="486" width="386" height="60" rx="14" fill="#ffc83d"/>
+  <text x="553" y="527" fill="#171106" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="900">从新手教程开始</text>
+</svg>

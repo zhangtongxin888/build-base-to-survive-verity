@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "run_id": "build-base-to-survive-verity-20260826-1823",
+  "game": {
+    "official_name": "Build Base to Survive VERITY",
+    "domain": "build-basetosurviveverity.wiki"
+  },
+  "reviewed_by": "Codex",
+  "reviewed_at": "2026-08-26T18:46:49+08:00",
+  "approved_fact_ids": [
+    "fact-001",
+    "fact-003",
+    "fact-004",
+    "fact-005",
+    "fact-006",
+    "fact-007",
+    "fact-008",
+    "fact-009",
+    "fact-010",
+    "fact-011",
+    "fact-012",
+    "fact-013",
+    "fact-014",
+    "fact-015",
+    "fact-016",
+    "fact-017",
+    "fact-018",
+    "fact-021",
+    "fact-022",
+    "fact-023",
+    "fact-025",
+    "fact-028",
+    "fact-030",
+    "fact-032",
+    "fact-035",
+    "fact-037",
+    "fact-038",
+    "fact-040"
+  ],
+  "rejected_facts": [
+    {
+      "id": "fact-002",
+      "reason": "The cited community page confirms the group name and owner, but it does not show that this experience is published by the group or that the game listing links the group as creator. Use approved fact-005 for developer identity."
+    },
+    {
+      "id": "fact-019",
+      "reason": "The cited Rolimon's game page lists the pass names and prices, but it does not substantiate every permanent-unlock and themed-gun description in this compound claim."
+    },
+    {
+      "id": "fact-020",
+      "reason": "The cited Spooky Pack page supports only the Spooky Gun and one-time Spooky block bundle; it contains no evidence for the Kawaii Pack half of the claim."
+    },
+    {
+      "id": "fact-024",
+      "reason": "The cited Rolimon's game page shows God Pack and Falsity Pack as offsale, but it does not include the claimed copy about migration to developer products."
+    },
+    {
+      "id": "fact-026",
+      "reason": "The cited Rolimon's page supports the 699 price, but it does not show Rainbow Carpet as a labeled placeable near player plots."
+    },
+    {
+      "id": "fact-027",
+      "reason": "The current official listing opened successfully but contained no CURIOSITY event or x2-boost wording, so the time-relative teaser could not be independently reproduced."
+    },
+    {
+      "id": "fact-029",
+      "reason": "The games API supports visits, players, and favorites at check time but does not return vote counts; the separately viewed Rolimon's totals had already changed, so the whole dynamic compound claim is not approved."
+    },
+    {
+      "id": "fact-031",
+      "reason": "The current official listing HTML did not expose the claimed maturity, Voice Chat, or Camera fields. Search-indexed copy alone is insufficient for approval."
+    },
+    {
+      "id": "fact-033",
+      "reason": "Sportskeeda links one Discord invite and mentions a codes channel, but it does not establish the claimed guild name, two matching public invites, or official staff ownership."
+    },
+    {
+      "id": "fact-034",
+      "reason": "The cited official page supports this game's name, loop, and developer, but it does not support the comparison game's story, place/universe identifiers, or developer; the compound disambiguation claim is under-sourced."
+    },
+    {
+      "id": "fact-036",
+      "reason": "The current official gallery image shows the tall yellow character, a base, and turret defenses, but it does not depict a player using a handheld gun as claimed."
+    },
+    {
+      "id": "fact-039",
+      "reason": "The code strings are present, but milestone causation and the link between CURIOSITYUPD and listing event branding are inferences not established by the cited source."
+    }
+  ],
+  "notes": [
+    "All 10 unique source_url values in the input package were opened through the configured system proxy during review; each returned HTTP 200 and used HTTPS.",
+    "The identity gate is satisfied by fact-001 for the official title and Roblox listing, fact-003 and fact-004 for place/universe identifiers, and fact-005 for the developer group.",
+    "The beginner-guide gate is satisfied by multiple approved official gameplay facts, including freeform building, turrets and guns, co-op building, autosave, and night-time VERITY appearances (fact-006 through fact-009).",
+    "fact-016, fact-017, fact-018, and fact-025 rely on screenshots embedded in Pocket-Codes. Treat their UI and offer details as a 2026-08-26 snapshot that may change.",
+    "For fact-025, only the visible Rebirth control is approved. Its cost, reset behavior, reward, and multiplier remain unknown and must not be invented.",
+    "fact-021 and fact-023 are mutable code/reward and Robux-price snapshots. Any page using them must retain the original 2026-08-25 publication or 2026-08-26 check date and must not present them as evergreen.",
+    "fact-028 and fact-030 are date-scoped update/analytics observations; current player counts, visits, ratings, playtime, and peaks can change.",
+    "Exact day/night duration, block health, turret damage, gun-crate loot, Rebirth mechanics, and the meaning of any x2 event boost remain unverified.",
+    "Rejected compound facts must be omitted as written; do not silently reuse only their supported fragments without a separately sourced fact."
+  ]
+}

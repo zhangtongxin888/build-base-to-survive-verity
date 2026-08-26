@@ -1,0 +1,15 @@
+{
+  "name": "build-base-to-survive-verity-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "node scripts/validate-site.mjs .",
+    "test": "node --test tests/site.test.mjs",
+    "build": "node scripts/build.mjs && node scripts/validate-site.mjs dist",
+    "check": "npm run lint && npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
