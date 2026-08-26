@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "run_id": "build-base-to-survive-verity-20260826-1823",
+  "game": {
+    "official_name": "Build Base to Survive VERITY",
+    "roblox_url": "https://www.roblox.com/games/116070952245255/",
+    "place_id": "116070952245255",
+    "universe_id": "10604772590",
+    "developer": "Danvd's Larpductions"
+  },
+  "domain": "build-basetosurviveverity.wiki",
+  "repo": {
+    "url": "https://github.com/zhangtongxin888/build-base-to-survive-verity",
+    "local_path": "/Users/zhangtongxin/orca/workspaces/roblox_monetization_v3/roblox-sites/build-base-to-survive-verity",
+    "orca_repo_id": "e3db3ae0-5333-4d2b-b4a9-3472e09eca6c"
+  },
+  "hosting": {
+    "primary": "cloudflare-pages",
+    "fallback": "vercel",
+    "note": "Preview URLs are never the production address. Production = build-basetosurviveverity.wiki (+www redirect)."
+  },
+  "candidate_dir": "/Users/zhangtongxin/orca/workspaces/roblox_monetization_v3/roblox-sites/build-base-to-survive-verity-candidate",
+  "kimi_allowed_paths": [
+    "index.html",
+    "**/*.html",
+    "**/*.css",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.tsx",
+    "**/*.astro",
+    "assets/**",
+    "public/**",
+    "src/**",
+    "pages/**",
+    "components/**",
+    "styles/**",
+    ".launch/design/**"
+  ],
+  "kimi_forbidden_paths": [
+    ".git/**",
+    "**/.env*",
+    "**/wrangler.toml",
+    "**/vercel.json",
+    "**/netlify.toml",
+    "**/*secret*",
+    "**/*credential*",
+    "**/*key*.pem"
+  ],
+  "providers": {
+    "research": { "name": "Grok", "model": "grok-cli-1.0.5-default" },
+    "design": { "name": "Kimi", "model": "kimi-code/k3" },
+    "code": { "name": "Codex", "model": "gpt-5.6-sol", "effort": "xhigh" }
+  },
+  "created_at": "2026-08-26T18:23:00+08:00",
+  "notes": "No secrets in this file. Kimi works only inside candidate_dir; Codex integrates into the official repo. Hero primary CTA must point to the in-site beginner tutorial, never to roblox.com."
+}
